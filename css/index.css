@@ -1,0 +1,66 @@
+body {
+    background-color: lightblue;
+    color: black;
+    font-family: Georgia, serif;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+#About {
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+#Experience li {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#Connect {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#Experience {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.job {
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-header h3 {
+    margin: 0;
+}
+
+.job p {
+    margin-top: 10px;
+}
+
+#Connect ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
