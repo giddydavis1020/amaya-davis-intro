@@ -9,7 +9,7 @@ section {
     padding: 15px;
 }
 
-#About {
+#about {
     text-align: center;
 }
 
@@ -19,20 +19,20 @@ h1, h2 {
     color: black;
 }
 
-#Experience li {
+#experience li {
     background-color: white;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
 }
 
-#Connect {
+#connect {
     color: darkblue;
     text-decoration: none;
     font-weight: bold;
 }
 
-#Experience {
+#experience {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -58,7 +58,7 @@ h1, h2 {
     margin-top: 10px;
 }
 
-#Connect ul {
+#connect ul {
     display: flex;
     gap: 20px;
     padding: 0;
