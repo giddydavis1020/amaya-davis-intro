@@ -4,7 +4,7 @@ const thisYear = today.getFullYear();
 const footer = document.querySelector("footer");
 const copyright = document.createElement("p");
 
-copyright.innerHTML = "© Amaya Davis " + thisYear;
+copyright.innerHTML = " © Amaya Davis" + thisYear;
 footer.appendChild(copyright);
 
 const skills = ["JavaScript", "HTML", "Python", "DOM", "CSS", "GitHub"];
