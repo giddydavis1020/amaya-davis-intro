@@ -64,3 +64,31 @@ h1, h2 {
     padding: 0;
     list-style: none;
 }
+
+#message form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+}
+
+#message input,
+#message textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#message textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#message button {
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
