@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Page metadata and CSS link -->
     <title>Amaya Davis's Portfolio</title>
     <meta charset="UTF-8">
     <meta name="description" content="Amaya Davis's Portfolio">
@@ -11,6 +12,7 @@
 
 <body>
 
+    <!-- Navigation bar -->
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
@@ -18,12 +20,14 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#connect">Connect</a></li>
-            <li><a href="#message">Leave A Message</a></li>
+            <li><a href="#leave_message">Leave a Message</a></li>
+            <li><a href="#projects"> Open API Project</a></li>
         </ul>
     </nav>
-
+    <!-- Main heading -->
     <h1>Amaya Davis</h1>
 
+    <!-- About section -->
     <section id="about">
         <h2>About</h2>
         <p>
@@ -33,6 +37,7 @@
         </p>
     </section>
 
+    <!-- Experience section -->
     <section id="experience">
         <h2>Experience</h2>
 
@@ -62,63 +67,67 @@
 
     </section>
 
+    <!-- Skills section -->
     <section id="skills">
         <h2>Skills</h2>
         <ul>
         </ul>
     </section>
 
+    <!-- Projects section -->
     <section id="projects">
         <h2>Projects</h2>
         <ul>
+            <li>
+                Weather App -
+                <a href="https://github.com/giddydavis1020/weather-app" target="_blank">
+                    View on Github
+                </a>
+            </li>
         </ul>
     </section>
 
+    <!-- Contact links section -->
     <section id="connect">
         <h2>Connect</h2>
         <ul>
+            <li><a href="mailto:aedavis2005@gmail.com">Email</a></li>
             <li><a href="https://github.com/giddydavis1020">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/amaya-davis-71a8a5394/">LinkedIn</a></li>
         </ul>
     </section>
-    <section id="message">
+
+    <!-- Leave a message form -->
+    <section id="leave_message">
         <h2>Leave A Message</h2>
-        <form name ="leave_message">
 
-            <label for="usersName">Name:</label>
-            <input
-                type="text"
-                name="usersName"
-                id="usersName"
-                required
-            />
+        <form name="leave_message">
 
-            <label for="usersEmail">Email:</label>
-            <input
-                type="email"
-                name="usersEmail"
-                id="usersEmail"
-                required
-            />
+            <label>Name</label>
+            <input type="text" name="usersName" required>
 
-            <label for="usersMessage">Message:</label>
-            <textarea
-                name="usersMessage"
-                id="usersMessage"
-                required
-                ></textarea>
+            <label>Email Address</label>
+            <input type="email" name="usersEmail" required>
 
-                <button type="submit">Submit</button>
-            
-            </form>
-        </section>
+
+            <label>Message</label>
+            <textarea name="usersMessage" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Messages display section -->
     <section id="messages">
         <h2>Messages</h2>
         <ul>
-        </ul>
 
+        </ul>
     </section>
+
+    <!-- Footer -->
     <footer></footer>
+
 <script src="js/index.js"></script>
 
 </body>
