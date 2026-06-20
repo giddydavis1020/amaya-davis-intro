@@ -176,11 +176,3 @@ h1, h2 {
 #messages button:hover {
     background-color: darkred;
 }
-
-h2 {
-    margin: 0;
-}
-
-#projects ul {
-    margin-top: 0;
-}
